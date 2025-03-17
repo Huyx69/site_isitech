@@ -1,0 +1,52 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #b1b1b1;
+  margin: 0;
+  padding: 0;
+}
+
+/* En-tête */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* Section profil */
+.profile {
+  margin-top: 50px;
+}
+
+/* Boîte de profil */
+.box {
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(188, 188, 188);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+}
+
+/* Image ronde */
+.image-ronde {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #333;
+  margin-bottom: 10px;
+}
+
+/* Texte */
+h2 {
+  margin: 10px 0 5px;
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
